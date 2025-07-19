@@ -44,7 +44,7 @@ const IntroSection: React.FC = () => (
                 <li key={idx}>
                     <Link
                         to={theme.to}
-                        className="text-stone-600 hover:underline hover:text-stone-400 text-base"
+                        className="text-stone-500 hover:underline hover:text-stone-400"
                     >
                         {theme.label}
                     </Link>

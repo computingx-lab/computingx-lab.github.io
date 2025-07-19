@@ -40,18 +40,23 @@ const PublicationsPage: React.FC = () => {
         workshop: 1,
     };
 
+    // Enforced section order
+    const sectionOrder = ['conference', 'journal', 'book_chapter', 'workshop'];
+
     return (
         <>
             <div className="flex max-w-5xl mx-auto">
                 <div className="flex-1 space-y-10">
                     {/* Global Year Navigation removed as per user request */}
-                    {Object.entries(publicationData).map(([key, publications]) => {
+                    {sectionOrder.map((key) => {
+                        const publications = publicationData[key as keyof typeof publicationData];
+                        if (!publications) return null;
                         const prefix = sectionPrefixes[key] || "";
                         if (key === "journal" || key === "conference") {
                             const yearGroups = groupByYear(publications as Publication[]);
                             return (
                                 <section key={key}>
-                                    <h2 className="text-2xl font-bold text-stone-700 mb-4" id={key}>{sectionTitles[key] || key}</h2>
+                                    <h2 className="text-2xl font-bold text-stone-700 mb-4 scroll-mt-24" id={key}>{sectionTitles[key] || key}</h2>
                                     {yearGroups.map(({ year, pubs }) => (
                                         <div key={year}>
                                             <h3
@@ -94,19 +99,29 @@ const PublicationsPage: React.FC = () => {
                     })}
                 </div>
                 {/* Sidebar */}
-                <Sidebar />
+                <Sidebar sectionOrder={sectionOrder} />
             </div>
         </>
     );
 };
 
 // Sidebar with active highlight and custom style
-const Sidebar: React.FC = () => {
+import { useNavigate, useLocation } from "react-router-dom";
+
+interface SidebarProps {
+    sectionOrder: string[];
+}
+
+const Sidebar: React.FC<SidebarProps> = ({ sectionOrder }) => {
     const [activeId, setActiveId] = React.useState<string | null>(null);
+    const navigate = useNavigate();
+    const location = useLocation();
 
     React.useEffect(() => {
         const sectionIds: string[] = [];
-        Object.entries(publicationData).forEach(([key, publications]) => {
+        sectionOrder.forEach((key) => {
+            const publications = publicationData[key as keyof typeof publicationData];
+            if (!publications) return;
             sectionIds.push(key);
             if (key === "journal" || key === "conference") {
                 const years = Array.from(
@@ -135,12 +150,33 @@ const Sidebar: React.FC = () => {
         window.addEventListener("scroll", handleScroll, { passive: true });
         handleScroll();
         return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
+    }, [sectionOrder]);
+
+    // Scroll to section if hash is present in location
+    React.useEffect(() => {
+        if (location.hash) {
+            const id = location.hash.replace("#", "");
+            setTimeout(() => {
+                const el = document.getElementById(id);
+                if (el) {
+                    el.scrollIntoView({ behavior: "smooth", block: "start" });
+                }
+            }, 0);
+        }
+    }, [location.hash]);
+
+    // Helper to handle sidebar navigation
+    const handleNav = (id: string) => (e: React.MouseEvent) => {
+        e.preventDefault();
+        navigate(`/publications#${id}`);
+    };
 
     return (
         <nav className="w-40 ml-8 hidden lg:block sticky top-24 self-start">
             <ul className="bg-white text-sm pl-2">
-                {Object.entries(publicationData).map(([key, publications]) => {
+                {sectionOrder.map((key) => {
+                    const publications = publicationData[key as keyof typeof publicationData];
+                    if (!publications) return null;
                     const sectionLabel = sectionTitles[key] || key;
                     const isSectionActive = activeId === key || (activeId && activeId.startsWith(key + "-"));
                     if (key === "journal" || key === "conference") {
@@ -153,9 +189,10 @@ const Sidebar: React.FC = () => {
                             <li key={key} className="mb-2">
                                 <a
                                     href={`#${key}`}
-                                    className={`block font-semibold px-2 py-1 transition ${isSectionActive
+                                    onClick={handleNav(key)}
+                                    className={`block font-semibold px-2 py-1 transition-colors duration-200 ${isSectionActive
                                         ? "text-stone-700 bg-stone-100"
-                                        : "text-gray-800 hover:text-stone-700"
+                                        : "text-gray-800 hover:text-stone-700 hover:bg-stone-200"
                                         }`}
                                 >
                                     {sectionLabel}
@@ -167,9 +204,10 @@ const Sidebar: React.FC = () => {
                                             <li key={year}>
                                                 <a
                                                     href={`#${key}-${year}`}
-                                                    className={`block px-2 py-0.5 rounded transition ${isActive
+                                                    onClick={handleNav(`${key}-${year}`)}
+                                                    className={`block px-2 py-0.5 rounded transition-colors duration-200 ${isActive
                                                         ? "text-stone-700 bg-stone-100 font-bold"
-                                                        : "text-gray-600 hover:text-stone-700"
+                                                        : "text-gray-600 hover:text-stone-700 hover:bg-stone-200"
                                                         }`}
                                                 >
                                                     {year}
@@ -181,9 +219,10 @@ const Sidebar: React.FC = () => {
                                         <li key="before2018">
                                             <a
                                                 href={`#${key}-2018`}
-                                                className={`block px-2 py-0.5 rounded transition ${beforeOr2018.some(y => activeId === `${key}-${y}`) || activeId === `${key}-2018`
+                                                onClick={handleNav(`${key}-2018`)}
+                                                className={`block px-2 py-0.5 rounded transition-colors duration-200 ${beforeOr2018.some(y => activeId === `${key}-${y}`) || activeId === `${key}-2018`
                                                     ? "text-stone-700 bg-stone-100 font-bold"
-                                                    : "text-gray-600 hover:text-stone-700"
+                                                    : "text-gray-600 hover:text-stone-700 hover:bg-stone-200"
                                                     }`}
                                             >
                                                 2018 and earlier
@@ -198,6 +237,7 @@ const Sidebar: React.FC = () => {
                             <li key={key} className="mb-2">
                                 <a
                                     href={`#${key}`}
+                                    onClick={handleNav(key)}
                                     className={`block font-semibold px-2 py-1 transition ${activeId === key
                                         ? "text-stone-700 bg-stone-100"
                                         : "text-gray-800 hover:text-stone-700"
