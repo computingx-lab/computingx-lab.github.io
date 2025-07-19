@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import HomePage from "./components/Home/HomePage";
 import PeoplePage from "./components/People/PeoplePage";
@@ -10,7 +10,7 @@ import ServicePage from "./components/Service/ServicePage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -22,7 +22,7 @@ function App() {
           <Route path="/service" element={<ServicePage />} />
         </Routes>
       </Layout>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
