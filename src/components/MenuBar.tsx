@@ -22,7 +22,7 @@ const MenuBar: React.FC = () => {
                     {/* Home logo and title */}
                     <Link to="/" className="text-2xl bitcount-single mr-8">
                         <span className="flex flex-row items-center space-x-3">
-                            <img src="/scl.svg" alt="Lab Logo" className="h-15 w-auto" />
+                            <img src="/scl-pins.svg" alt="Lab Logo" className="h-15 w-auto" />
                             <span className="flex flex-col leading-tight text-xl">
                                 <span>
                                     <span className="nd-blue">

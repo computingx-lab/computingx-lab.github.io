@@ -28,8 +28,7 @@ The code for the old website is preserved in the first commit of this repository
 
 ## Deployment
 
-This repository is automatically deployed to GitHub Pages at:  
-https://scl-nd.github.io/
+This repository is automatically deployed to GitHub Pages at: https://scl-nd.github.io/
 
 For https://www3.nd.edu/~scl/, the lab website administrator needs to manually build the production code (`npm run build`) and upload the files from the `dist/` to the server for deployment.
 
