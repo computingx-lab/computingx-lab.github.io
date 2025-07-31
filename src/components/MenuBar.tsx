@@ -21,7 +21,7 @@ const MenuBar: React.FC = () => {
                 {/* Left: Home logo and title */}
                 <Link to="/" className="text-2xl bitcount-single mr-8">
                     <span className="flex flex-row items-center space-x-3">
-                        <img src="/scl-pins.svg" alt="Lab Logo" className="h-15 w-auto" />
+                        <img src="scl-pins.svg" alt="Lab Logo" className="h-15 w-auto" />
                         <span className="flex flex-col leading-tight text-xl">
                             <span>
                                 <span className="nd-blue">
@@ -59,7 +59,7 @@ const MenuBar: React.FC = () => {
                         className="flex items-center ml-2 hover:opacity-80"
                         aria-label="GitHub"
                     >
-                        <img src="/github.svg" alt="GitHub Logo" height={28} width={28} />
+                        <img src="github.svg" alt="GitHub Logo" height={28} width={28} />
                     </a>
                 </div>
                 {/* Hamburger menu for mobile and tablet */}
@@ -102,7 +102,7 @@ const MenuBar: React.FC = () => {
                         aria-label="GitHub"
                         onClick={() => setMenuOpen(false)}
                     >
-                        <img src="/github.svg" alt="GitHub Logo" height={20} width={20} className="mr-2" />
+                        <img src="github.svg" alt="GitHub Logo" height={20} width={20} className="mr-2" />
                         GitHub
                     </a>
                 </div>

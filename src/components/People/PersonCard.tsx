@@ -40,14 +40,14 @@ const PersonCard: React.FC<PersonCardProps> = ({
                         className="flex-shrink-0 mr-4 group"
                     >
                         <img
-                            src={person.image.startsWith("images/") ? "/" + person.image : person.image}
+                            src={person.image.startsWith("images/") ? person.image : person.image}
                             alt={person.name}
                             className="w-24 h-36 rounded-lg object-cover border-gray-400 transition-transform duration-200 ease-in-out group-hover:scale-105"
                         />
                     </a>
                 ) : (
                     <img
-                        src={person.image.startsWith("images/") ? "/" + person.image : person.image}
+                        src={person.image.startsWith("images/") ? person.image : person.image}
                         alt={person.name}
                         className="w-24 h-36 rounded-lg object-cover border-gray-400 mr-4"
                     />
