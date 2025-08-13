@@ -83,6 +83,13 @@
                 "homepage": "",
                 "admission_year": "2025",
                 "research_interest": "Large Language Models"
+            },
+                        {
+                "name": "Naihao Xu",
+                "image": "images/naihaoxu.jpg",
+                "homepage": "https://www.linkedin.com/in/naihao-xu-2a772319a/",
+                "admission_year": "2025",
+                "research_interest": "Applied AI in Healthcare, Cutting-Edge Multimodal Model, and Long Video-sequencing Processing"
             }
         ]
     },
