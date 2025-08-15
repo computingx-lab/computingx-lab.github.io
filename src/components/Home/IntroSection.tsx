@@ -1,23 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-import projects from "../../data/projects.json";
-
-function slugify(text: string): string {
-    return text
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, "-")
-        .replace(/(^-|-$)/g, "");
-}
-
-const researchThemes = projects.map((project: { title: string }) => ({
-    label: project.title,
-    to: `/projects#${slugify(project.title)}`,
-}));
+const researchThemes = [
+    "Hardware/Software Co-Exploration for Neural Architectures",
+    "On-Device Personalized AI",
+    "Efficient Computing for Healthcare Applications",
+];
 
 const IntroSection: React.FC = () => (
     <section className="mb-10">
-        <p className="text-lg text-gray-700 mb-4 text-left max-w-2xl">
+        <p className="text-base text-gray-700 mb-1 text-left max-w-2xl">
             <span className="inline-flex items-center align-middle leading-tight bitcount-single">
                 <span className="inline-flex flex-row items-center space-x-1">
                     <span className="nd-blue">
@@ -37,17 +28,13 @@ const IntroSection: React.FC = () => (
                         )
                     </span>
                 </span>
-            </span><span> is dedicated to addressing the reliability and security challenges that emerge in problems at the device, circuit, and system scales. Supported by federal agencies, including the National Science Foundation and the Air Force Research Lab, and industry companies such as IBM, Intel, ITRI, and Ameren, we focus on four research themes:</span>
+            </span><span> is dedicated to addressing the challenges in deploying state-of-the-art machine learning models on edge devices with limited resources. Our research interests span the device, circuit, and system scales, with cross-layer design in the focus. We are particularly interested in the applications of our research in the healthcare domain, through extensive collaboration with leading medical centers worldwide. Supported by federal agencies, including the National Science Foundation (NSF), National Institute of Health (NIH), Advanced Research Projects Agency for Health (ARPA-H), and many companies, we focus on three research themes:
+            </span>
         </p>
-        <ul className="max-w-xl space-y-2 text-left list-disc pl-6">
+        <ul className="max-w-xl text-left list-disc pl-6">
             {researchThemes.map((theme, idx) => (
-                <li key={idx}>
-                    <Link
-                        to={theme.to}
-                        className="text-stone-500 hover:underline hover:text-stone-400"
-                    >
-                        {theme.label}
-                    </Link>
+                <li key={idx} className="text-base text-stone-600">
+                    {theme}
                 </li>
             ))}
         </ul>
