@@ -2,21 +2,40 @@
 
 This is the homepage for the Sustainable Computing Lab (SCL), built with React, TypeScript, and Vite.
 
-The code for the old website is preserved in the first commit of this repository.
+The code for the old website is preserved in the [first commit](https://github.com/SCL-ND/scl-nd.github.io/tree/338d28c8e85528246ff6505e238ff4361854f59f) of this repository.
+
+## Data
+
+All lab data (news, people, projects, etc.) is stored in the `/src/data/` as JSON files.
+
+Images and files are located in the `public/`.
+
+## Deployment
+
+This repository is automatically deployed to GitHub Pages at: https://scl-nd.github.io/
+
+Some external websites will be automatically redirected here:
+
+- https://www3.nd.edu/~scl/
+- https://academicweb.nd.edu/scl/
+- https://academicweb.nd.edu/~scl/
 
 ## Getting Started
 
 1. Install dependencies:
+
    ```
    npm install
    ```
 
 2. Start the development server:
+
    ```
    npm run dev
    ```
 
 3. (Optional) Build for production:
+
    ```
    npm run build
    ```
@@ -25,15 +44,3 @@ The code for the old website is preserved in the first commit of this repository
    ```
    npm run preview
    ```
-
-## Deployment
-
-This repository is automatically deployed to GitHub Pages at: https://scl-nd.github.io/
-
-For https://www3.nd.edu/~scl/, the lab website administrator needs to manually build the production code (`npm run build`) and upload the files from the `dist/` to the server for deployment.
-
-## Data
-
-All lab data (news, people, projects, etc.) is stored in the `/src/data/` as JSON files.
-
-Images and files are located in the `public/`.
