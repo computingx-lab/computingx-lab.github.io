@@ -20,7 +20,7 @@ Some external websites will be automatically redirected here:
 - https://academicweb.nd.edu/scl/
 - https://academicweb.nd.edu/~scl/
 
-## Getting Started
+## Run
 
 1. Install dependencies:
 
