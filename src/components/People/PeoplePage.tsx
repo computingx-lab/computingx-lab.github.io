@@ -25,7 +25,10 @@ const PeoplePage: React.FC = () => (
 
                 return (
                     <div key={group.group || idx}>
-                        <h2 className="text-2xl font-bold text-stone-700 text-gray-700 mb-4">{group.group}</h2>
+                        <h2 className="text-2xl font-bold text-stone-700 text-gray-700 mb-1">{group.group}</h2>
+                        {group.group === "Alumni" && (
+                            <p className="text-sm text-gray-500 mb-3">* Positions listed are first job placements.</p>
+                        )}
                         {/* Main people */}
                         {hasPeople && (
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-4">
