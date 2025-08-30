@@ -12,18 +12,18 @@ const IntroSection: React.FC = () => (
             <span className="inline-flex items-center align-middle leading-tight bitcount-single">
                 <span className="inline-flex flex-row items-center space-x-1">
                     <span className="nd-blue">
-                        <span className="font-bold underline">S</span>ustainable
+                        <span className="font-bold underline">C</span>omputing
                     </span>
                     <span className="nd-gold">
-                        <span className="font-bold underline">C</span>omputing
+                        <span className="font-bold underline">X</span>
                     </span>
                     <span>
                         <span className="font-bold underline">L</span>ab
                     </span>
                     <span>
                         (
-                        <span className="nd-blue font-bold">S</span>
-                        <span className="nd-gold font-bold">C</span>
+                        <span className="nd-blue font-bold">C</span>
+                        <span className="nd-gold font-bold">X</span>
                         <span className="font-bold">L</span>
                         )
                     </span>
