@@ -1,4 +1,4 @@
-# Sustainable Computing Lab (SCL) Homepage
+# Qin Lab (Q-Lab) Homepage
 
 This is the homepage for the Sustainable Computing Lab (SCL), built with React, TypeScript, and Vite.
 
