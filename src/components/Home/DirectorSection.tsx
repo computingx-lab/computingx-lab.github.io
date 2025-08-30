@@ -12,7 +12,7 @@ const DirectorSection: React.FC = () => (
                         className="w-32 h-44 rounded-lg object-cover border-gray-400"
                     />
                 </div>
-                <figcaption className="text-center text-base text-gray-600 mt-2">Dr. Yiyu Shi</figcaption>
+                <figcaption className="text-center text-base text-gray-600 mt-2">Dr. Ruiyang Qin</figcaption>
                 <div className="flex justify-center">
                     <a
                         href="files/cv-shi.pdf"
