@@ -16,16 +16,7 @@ const HomePage: React.FC = () => (
         <div>
             <DirectorSection />
         </div>
-        <figure className="flex flex-col items-center">
-            <img
-                src="images/whole_group.jpg"
-                alt="Group Photo"
-                className="w-full max-w-2xl h-80 object-cover rounded shadow"
-            />
-            <figcaption className="mt-2 text-sm text-gray-600 text-center">
-                Group photo from our bowling outing in South Bend, August 20, 2024.
-            </figcaption>
-        </figure>
+        
     </div>
 );
 
