@@ -7,8 +7,8 @@ const DirectorSection: React.FC = () => (
             <div className="flex-shrink-0 mb-4 md:mb-0 md:mr-8">
                 <div className="flex justify-center">
                     <img
-                        src="images/dryiyu.jpeg"
-                        alt="Dr. Yiyu Shi"
+                        src="images/Ruiyang_Profile.jpg"
+                        alt="Dr. Ruiyang Qin"
                         className="w-32 h-44 rounded-lg object-cover border-gray-400"
                     />
                 </div>
@@ -27,8 +27,7 @@ const DirectorSection: React.FC = () => (
             <div>
                 <h3 className="text-xl font-semibold text-stone-500 mb-2">Director</h3>
                 <p className="text-gray-700 mb-2 text-sm">
-                    Dr. Yiyu Shi is currently a professor in the Department of Computer Science and Engineering at the University of Notre Dame, the site director of National Science Foundation I/UCRC Alternative and Sustainable Intelligent Computing, and the director of the Sustainable Computing Lab (SCL).
-                    He is also a visiting scientist at Boston Children's Hospital, the primary pediatric program of Harvard Medical School. He received his B.S. in Electronic Engineering from Tsinghua University, Beijing, China in 2005, and the M.S and Ph.D. degrees in Electrical Engineering from the University of California, Los Angeles in 2007 and 2009 respectively.
+                    Dr. Yiyu Shi is currently an assistant professor in the Department of Electrical and Computer Engineering at Villanova University. He received his B.S. and M.S. in Computer Science from Georgia Institute of Technology in 2020 and 2021 respectively, and Ph.D. in Computer Science and Engineering from the University of Notre Dame in 2025.
                 </p>
                 <p className="text-gray-700 mb-2 text-sm">
                     His current research interests focus on hardware intelligence and biomedical applications. In recognition of his research, more than a dozen of his papers have been nominated for or awarded as the best paper in top journals and conferences, including the 2021 IEEE Transactions on Computer-Aided Design Donald O Pederson Best Paper Award.
