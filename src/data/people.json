@@ -1,13 +1,13 @@
 [
     {
-        "group": "Postdoc Scholars",
+        "group": "Graduate Students",
         "people": [
             {
-                "name": "Jun Xia",
-                "image": "images/junxia.jpeg",
-                "homepage": "https://junxia95.github.io/",
-                "admission_year": "2023",
-                "research_interest": "Heterogeneous On-device Federated Learning and Trustworthy AI"
+                "name": "Ningxin Kong",
+                "image": "images/ningxin.jpeg",
+                "homepage": "https://www.linkedin.com/in/stacy-kong-625a421a2/",
+                "admission_year": "2025",
+                "research_interest": "Univ of Toronto(BS), Univ of Chicago(MS)"
             }
         ]
     }
