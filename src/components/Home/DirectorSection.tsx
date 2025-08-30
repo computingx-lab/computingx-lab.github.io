@@ -27,7 +27,7 @@ const DirectorSection: React.FC = () => (
             <div>
                 <h3 className="text-xl font-semibold text-stone-500 mb-2">Director</h3>
                 <p className="text-gray-700 mb-2 text-sm">
-                    Dr. Yiyu Shi is currently an assistant professor in the Department of Electrical and Computer Engineering at Villanova University. He received his B.S. and M.S. in Computer Science from Georgia Institute of Technology in 2020 and 2021 respectively, and Ph.D. in Computer Science and Engineering from the University of Notre Dame in 2025.
+                    Dr. Ruiyang Qin is currently an assistant professor in the Department of Electrical and Computer Engineering at Villanova University. He received his B.S. and M.S. in Computer Science from Georgia Institute of Technology in 2020 and 2021 respectively, and Ph.D. in Computer Science and Engineering from the University of Notre Dame in 2025.
                 </p>
                 <p className="text-gray-700 mb-2 text-sm">
                     His current research interests focus on hardware intelligence and biomedical applications. In recognition of his research, more than a dozen of his papers have been nominated for or awarded as the best paper in top journals and conferences, including the 2021 IEEE Transactions on Computer-Aided Design Donald O Pederson Best Paper Award.
