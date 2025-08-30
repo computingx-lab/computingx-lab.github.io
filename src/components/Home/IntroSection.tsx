@@ -23,7 +23,7 @@ const IntroSection: React.FC = () => (
                     <span>
                         (
                         <span className="nd-blue font-bold">C</span>
-                        <span className="nd-gold font-bold">X</span>
+                        <span className="nd-blue font-bold">X</span>
                         <span className="font-bold">L</span>
                         )
                     </span>
