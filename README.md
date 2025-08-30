@@ -1,6 +1,6 @@
 # ComputingX Lab Homepage
 
-This is the homepage for the Sustainable Computing Lab (SCL), built with React, TypeScript, and Vite.
+This is the homepage for the ComputingX Lab homepage, built with React, TypeScript, and Vite.
 
 The code for the old website is preserved in the [first commit](https://github.com/SCL-ND/scl-nd.github.io/tree/338d28c8e85528246ff6505e238ff4361854f59f) of this repository.
 
