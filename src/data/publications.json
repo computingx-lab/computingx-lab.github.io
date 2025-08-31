@@ -35,6 +35,14 @@
             "notes": "acceptance rate 26.9%"
         },
         {
+            "authors": "Jiajie Li, Brian R Quaranto, Chenhui Xu, Ishan Mishra, Ruiyang Qin, Dancheng Liu, Peter CW Kim, Jinjun Xiong",
+            "title": "Recognize Any Surgical Object: Unleashing the Power of Weakly-Supervised Data",
+            "venue": "International Conference on Learning Representations (ICLR)",
+            "year": 2025,
+            "notes": "acceptance rate 32.08%",
+            "highlight": "Spotlight. 5.1% out of all Submissions"
+        },
+        {
             "authors": "Ruiyang Qin, Pengyu Ren, Zheyu Yan, Liu Liu, Dancheng Liu, Amir Nassereldine, Jinjun Xiong, Kai Ni, Sharon Hu, Yiyu Shi",
             "title": "Sub-Sequential Physics-Informed Learning with State Space Model",
             "venue": "International Conference on Machine Learning (ICML)",
