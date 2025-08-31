@@ -30,7 +30,7 @@ const MenuBar: React.FC = () => {
                             </span>
                             <span>
                                 <span>
-                                    <span className="font-bold underline">Lab</span>ab
+                                    <span className="font-bold underline">Lab</span>
                                 </span>
                             </span>
                         </span>
