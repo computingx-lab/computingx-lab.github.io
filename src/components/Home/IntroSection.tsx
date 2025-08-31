@@ -20,13 +20,13 @@ const IntroSection: React.FC = () => (
                     <span>
                         <span className="font-bold underline">Lab</span>
                     </span>
-                    <span>
+                    {/* <span>
                         (
                         <span className="nd-blue font-bold">C</span>
                         <span className="nd-blue font-bold">X</span>
                         <span className="font-bold">L</span>
                         )
-                    </span>
+                    </span> */}
                 </span>
             </span><span> is dedicated to addressing the challenges in deploying state-of-the-art machine learning models on edge devices with limited resources. Our research interests span the device, circuit, and system scales, with cross-layer design in the focus. We are particularly interested in the applications of our research in the healthcare domain, through extensive collaboration with leading medical centers worldwide. Supported by federal agencies, including the National Science Foundation (NSF), National Institute of Health (NIH), Advanced Research Projects Agency for Health (ARPA-H), and many companies, we focus on three research themes:
             </span>
