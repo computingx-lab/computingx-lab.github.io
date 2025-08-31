@@ -28,6 +28,12 @@
             "notes": "acceptance rate 24.7%"
         },
         {
+            "authors": "John P Lalor, Ruiyang Qin, David Dobolyi, Ahmed Abbasi",
+            "title": "Textagon: Boosting Language Models with Theory-guided Parallel Representations",
+            "venue": "The 63rd Annual Meeting of the Association for Computational Linguistics (ACL)",
+            "year": 2025
+        },
+        {
             "authors": "Chenhui Xu, Dancheng Liu, Yuting Hu, Jiajie Li, Ruiyang Qin, Qingxiao Zheng, Jinjun Xiong",
             "title": "NVCiM-PT: An NVCiM-assisted Prompt Tuning Framework for Edge LLMs",
             "venue": "Design, Automation and Test in Europe Conference (DATE)",
