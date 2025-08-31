@@ -21,19 +21,16 @@ const MenuBar: React.FC = () => {
                 {/* Left: Home logo and title */}
                 <Link to="/" className="text-2xl bitcount-single mr-8">
                     <span className="flex flex-row items-center space-x-3">
-                        <img src="scl-pins.svg" alt="Lab Logo" className="h-15 w-auto" />
+                        <img src="computingx_logo.svg" alt="Lab Logo" className="h-15 w-auto" />
                         <span className="flex flex-col leading-tight text-xl">
                             <span>
                                 <span className="nd-blue">
-                                    <span className="font-bold underline">S</span>ustainable
+                                    <span className="font-bold underline">ComputingX</span>
                                 </span>
                             </span>
                             <span>
-                                <span className="nd-gold">
-                                    <span className="font-bold underline">C</span>omputing
-                                </span>
                                 <span>
-                                    <span className="font-bold underline">L</span>ab
+                                    <span className="font-bold underline">Lab</span>ab
                                 </span>
                             </span>
                         </span>
