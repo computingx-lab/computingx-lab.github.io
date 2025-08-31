@@ -5,6 +5,18 @@
             "title": "Empirical Guidelines for Deploying LLMs onto Resource-constrained Edge Devices",
             "venue": "ACM Transactions on Design Automation of Electronic Systems",
             "year": 2025
+        },
+        {
+            "authors": "Ruiyang Qin, Ryan Cook, Kai Yang, Ahmed Abbasi, David Dobolyi, Salman Seyedi, Emily Griner, Hyeokhyen Kwon, Robert Cotes, Zifan Jiang, Gari Clifford",
+            "title": "Language models for online depression detection: A review and benchmark analysis on remote interviews",
+            "venue": "ACM Transactions on Management Information Systems",
+            "year": 2025
+        },
+        {
+            "authors": "Marialena Bevilacqua, Kezia Oketch, Ruiyang Qin, Will Stamey, Xinyuan Zhang, Yi Gan, Kai Yang, Ahmed Abbasi",
+            "title": "When automated assessment meets automated content generation: Examining text quality in the era of gpts",
+            "venue": "ACM Transactions on Information Systems",
+            "year": 2025
         }
     ],
     "conference": [
@@ -16,9 +28,16 @@
             "notes": "acceptance rate 24.7%"
         },
         {
-            "authors": "Ruiyang Qin, Pengyu Ren, Zheyu Yan, Liu Liu, Dancheng Liu, Amir Nassereldine, Jinjun Xiong, Kai Ni, Sharon Hu, Yiyu Shi",
+            "authors": "Chenhui Xu, Dancheng Liu, Yuting Hu, Jiajie Li, Ruiyang Qin, Qingxiao Zheng, Jinjun Xiong",
             "title": "NVCiM-PT: An NVCiM-assisted Prompt Tuning Framework for Edge LLMs",
             "venue": "Design, Automation and Test in Europe Conference (DATE)",
+            "year": 2025,
+            "notes": "acceptance rate 26.9%"
+        },
+        {
+            "authors": "Ruiyang Qin, Pengyu Ren, Zheyu Yan, Liu Liu, Dancheng Liu, Amir Nassereldine, Jinjun Xiong, Kai Ni, Sharon Hu, Yiyu Shi",
+            "title": "Sub-Sequential Physics-Informed Learning with State Space Model",
+            "venue": "International Conference on Machine Learning (ICML)",
             "year": 2025,
             "notes": "acceptance rate 25%"
         },
@@ -38,18 +57,25 @@
             "highlight": "Nominated for Best Paper Award"
         },
         {
-            "authors": "Ruiyang Qin, Jun Xia, Zhenge Jia, Meng Jiang, Ahmed Abbasi, Peipei Zhou, Jingtong Hu, and Yiyu Shi",
+            "authors": "Ruiyang Qin, Jun Xia, Zhenge Jia, Meng Jiang, Ahmed Abbasi, Peipei Zhou, Jingtong Hu, Yiyu Shi",
             "title": "Enabling On-Device Large Language Model Personalization with Self-Supervised Data Selection and Synthesis",
             "venue": "IEEE/ACM Design Automation Conference (DAC)",
             "year": 2024,
             "notes": "acceptance rate 21.8%"
         },
         {
-            "authors": "Ruiyang Qin, Yuting Hu, Zheyu Yan, Jinjun Xiong, Ahmed Abbasi, and Yiyu Shi",
+            "authors": "Ruiyang Qin, Yuting Hu, Zheyu Yan, Jinjun Xiong, Ahmed Abbasi, Yiyu Shi",
             "title": "Towards Fairness of Neural Architecture Search via LLMs",
             "venue": "Asia and South Pacific Design Automation Conference (ASP-DAC)",
             "year": 2024,
             "notes": "invited paper"
+        },
+        {
+            "authors": "Zhiding Liang, Zhixin Song, Jinglei Cheng, Zichang He, Ji Liu, Hanrui Wang, Ruiyang Qin, Yiru Wang, Song Han, Xuehai Qian, Yiyu Shi",
+            "title": "Hybrid gate-pulse model for variational quantum algorithms",
+            "venue": "IEEE/ACM Design Automation Conference (DAC)",
+            "year": 2023,
+            "notes": "acceptance rate 22.7%"
         }
     ]
 }
