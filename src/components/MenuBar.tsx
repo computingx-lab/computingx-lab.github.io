@@ -8,8 +8,8 @@ const MenuBar: React.FC = () => {
     // Navigation links
     const navLinks = [
         { to: "/people", label: "People" },
-        // { to: "/publications", label: "Publications" },
-        { to: "/projects", label: "Projects" },
+        { to: "/publications", label: "Publications" },
+        // { to: "/projects", label: "Projects" },
         { to: "/teaching", label: "Teaching" },
         { to: "/awards", label: "Awards" },
         { to: "/service", label: "Service" },
