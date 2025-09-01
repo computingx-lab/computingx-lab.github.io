@@ -29,7 +29,7 @@ const IntroSection: React.FC = () => (
                         )
                     </span> */}
                 </span>
-            </span><span> is dedicated to exploring problems and answers beyond the current computing paradigm. Our research interests span machine learning, edge computing, and emerging technologies in semiconductor and computer architecture. In particular, we aim to apply our research to the healthcare and medical domains. Additionally, we are collaborating with advanced research institutes across states and countries, including but not limited to the State University of New York at Buffalo, the University of Pittsburgh, Brown University, Northwestern University, and Technische Universität Braunschweig (Germany), and Fraunhofer IPMS - Center Nanoelectronic Technologies (Germany). We focus on the following research themes: 
+            </span><span> is dedicated to exploring problems and answers beyond the current computing paradigm. Our research interests span machine learning, edge computing, and emerging technologies in semiconductor and computer architecture. In particular, we aim to apply our research to the healthcare and medical domains. Additionally, we are collaborating with advanced research institutes across states and countries, including but not limited to the State University of New York at Buffalo, the University of Notre Dame, the University of Pittsburgh, Brown University, Northwestern University, and Technische Universität Braunschweig (Germany), and Fraunhofer IPMS - Center Nanoelectronic Technologies (Germany). We focus on the following research themes: 
             </span>
         </p>
         <ul className="max-w-xl text-left list-disc pl-6">
