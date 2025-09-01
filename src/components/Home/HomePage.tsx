@@ -16,7 +16,9 @@ const HomePage: React.FC = () => (
         <div>
             <DirectorSection />
         </div>
-        
+        <div>
+            <AnnouncementSection />
+        </div>
     </div>
 );
 
