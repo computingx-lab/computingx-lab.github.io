@@ -2,6 +2,8 @@ import React from "react";
 import IntroSection from "./IntroSection";
 import NewsSection from "./NewsSection";
 import DirectorSection from "./DirectorSection";
+import AnnouncementSection from "./AnnouncementSection";
+
 
 const HomePage: React.FC = () => (
     <div>
