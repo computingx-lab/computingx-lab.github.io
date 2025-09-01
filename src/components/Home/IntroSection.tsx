@@ -29,7 +29,6 @@ const IntroSection: React.FC = () => (
                     </span> */}
                 </span>
             </span><span> is dedicated to exploring problems and answers beyond the current computing paradigm. Our research interests span machine learning, edge computing, and emerging technologies in semiconductor and computer architecture. In particular, we aim to apply our research to the healthcare and medical domains. Additionally, we are collaborating with advanced research institutes across states and countries, including but not limited to the State University of New York at Buffalo, the University of Pittsburgh, Brown University, Northwestern University, and Technische Universität Braunschweig (Germany), and Fraunhofer IPMS - Center Nanoelectronic Technologies (Germany). We focus on the following research themes: 
-                // is dedicated to addressing the challenges in deploying state-of-the-art machine learning models on edge devices with limited resources. Our research interests span the device, circuit, and system scales, with cross-layer design in the focus. We are particularly interested in the applications of our research in the healthcare domain, through extensive collaboration with leading medical centers worldwide. Supported by federal agencies, including the National Science Foundation (NSF), National Institute of Health (NIH), Advanced Research Projects Agency for Health (ARPA-H), and many companies, we focus on three research themes:
             </span>
         </p>
         <ul className="max-w-xl text-left list-disc pl-6">
