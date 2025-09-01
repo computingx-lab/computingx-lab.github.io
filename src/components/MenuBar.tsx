@@ -50,7 +50,7 @@ const MenuBar: React.FC = () => {
                     ))}
                     {/* GitHub icon as the last nav item */}
                     <a
-                        href="https://github.com/SCL-ND"
+                        href="https://github.com/computingx-lab"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center ml-2 hover:opacity-80"
