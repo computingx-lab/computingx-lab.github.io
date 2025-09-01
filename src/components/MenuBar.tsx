@@ -92,7 +92,7 @@ const MenuBar: React.FC = () => {
                     ))}
                     {/* GitHub icon in drawer menu */}
                     <a
-                        href="https://github.com/SCL-ND"
+                        href="https://github.com/computingx-lab"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block px-4 py-2 hover:bg-gray-100 font-medium text-lg flex items-center"
