@@ -74,7 +74,7 @@ const PersonCard: React.FC<PersonCardProps> = ({
                         </div>
                     )}
                     {person.research_interest && person.research_interest !== "" && (
-                        <div className="text-sm text-gray-600 mb-1 text-left whitespace-pre-line">
+                        <div className="text-sm text-gray-600 mb-1 text-left">
                             {person.research_interest}
                         </div>
                     )}
