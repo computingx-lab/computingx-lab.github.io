@@ -3,8 +3,7 @@ import React from "react";
 const researchThemes = [
     "Hardware/Software Co-Exploration for Machine Learning",
     "Personalized LLM on Edge Device"
-    "Efficient Computing for Healthcare Applications",
-    "In-Memory Computing and Emerging Technologies"
+    "Efficient Computing for Healthcare Applications"
 ];
 
 const IntroSection: React.FC = () => (
