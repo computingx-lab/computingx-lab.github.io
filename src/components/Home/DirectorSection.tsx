@@ -35,26 +35,25 @@ const DirectorSection: React.FC = () => (
                     {/* He is also the recipient of Facebook Research Award, IBM Invention Achievement Award, Japan Society for the Promotion of Science (JSPS) Faculty Invitation Fellowship, Humboldt Research Fellowship, IEEE St. Louis Section Outstanding Educator Award, Academy of Science (St. Louis) Innovation Award, Missouri S&T Faculty Excellence Award, NSF CAREER Award, IEEE Region 5 Outstanding Individual Achievement Award, the Air Force Summer Faculty Fellowship, and IEEE Computer Society Mid-Career Research Achievement Award. */}
                     {/* He has served on the technical program committee of many international conferences. He is the deputy editor-in-chief of IEEE VLSI CAS Newsletter, and an associate editor of various IEEE and ACM journals. He is an IEEE CEDA distinguished lecturer and an ACM distinguished speaker. */}
                 </p>
-            </div>
-            <div className="flex items-center space-x-4 mt-3">
-                <a
-                    href="https://www.linkedin.com/in/ruiyang-qin-gatech/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-600 hover:text-blue-600 transition"
+                {/* 🔗 Links row */}
+                <p className="text-sm text-blue-600 mb-2">
+                <a 
+                  href="https://scholar.google.com/citations?user=c26FtWIAAAAJ&hl=en" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:underline mr-4"
                 >
-                    <img src="icons/linkedin.svg" alt="LinkedIn" className="h-5 w-5 inline-block mr-1" />
-                    LinkedIn
+                  Google Scholar
                 </a>
-                <a
-                    href="https://scholar.google.com/citations?user=c26FtWIAAAAJ&hl=en"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-600 hover:text-blue-600 transition"
+                <a 
+                  href="https://www.linkedin.com/in/ruiyang-qin-gatech/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:underline mr-4"
                 >
-                    <img src="icons/scholar.svg" alt="Google Scholar" className="h-5 w-5 inline-block mr-1" />
-                    Google Scholar
+                  LinkedIn
                 </a>
+                </p>
             </div>
         </div>
     </section>
