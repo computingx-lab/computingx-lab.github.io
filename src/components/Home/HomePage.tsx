@@ -21,6 +21,9 @@ const HomePage: React.FC = () => (
         <div>
             <AnnouncementSection />
         </div>
+        <div>
+            <AboutVillanovaSection />
+        </div>
     </div>
 );
 
