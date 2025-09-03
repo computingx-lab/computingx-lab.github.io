@@ -27,6 +27,11 @@ const AboutVillanovaSection: React.FC = () => (
           alt="Villanova Campus 3"
           className="w-full aspect-square object-cover rounded-lg shadow-sm"
         />
+        <img
+          src="images/nova_pope.jpg"
+          alt="Villanova Campus 4"
+          className="w-full aspect-square object-cover rounded-lg shadow-sm"
+        />
         {/* 你可以继续加更多照片 */}
       </div>
     </div>
