@@ -3,6 +3,7 @@ import IntroSection from "./IntroSection";
 import NewsSection from "./NewsSection";
 import DirectorSection from "./DirectorSection";
 import AnnouncementSection from "./AnnouncementSection";
+import AboutVillanovaSection from "./AboutVillanovaSection";
 
 
 const HomePage: React.FC = () => (
