@@ -11,7 +11,7 @@ const AboutVillanovaSection: React.FC = () => (
       </p>
 
       {/* Photo Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         <img
           src="images/nova_chapel.jpg"
           alt="Villanova Campus 1"
@@ -30,6 +30,16 @@ const AboutVillanovaSection: React.FC = () => (
         <img
           src="images/nova_pope.jpg"
           alt="Villanova Campus 4"
+          className="w-full aspect-square object-cover rounded-lg shadow-sm"
+        />
+        <img
+          src="images/nova_eng.jpg"
+          alt="Villanova Campus 5"
+          className="w-full aspect-square object-cover rounded-lg shadow-sm"
+        />
+        <img
+          src="images/nova_eng_internal.jpg"
+          alt="Villanova Campus 6"
           className="w-full aspect-square object-cover rounded-lg shadow-sm"
         />
         {/* 你可以继续加更多照片 */}
