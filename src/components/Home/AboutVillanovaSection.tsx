@@ -11,7 +11,7 @@ const AboutVillanovaSection: React.FC = () => (
       </p>
 
       {/* Photo Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
         <img
           src="images/nova_chapel.jpg"
           alt="Villanova Campus 1"
