@@ -6,7 +6,11 @@ const AboutVillanovaSection: React.FC = () => (
     <div className="flex flex-col max-w-5xl mx-auto bg-white rounded-lg shadow px-4 md:px-8 py-6">
       <h3 className="text-xl font-semibold text-stone-500 mb-4">About Villanova University</h3>
       <p className="text-gray-700 mb-4 text-sm">
-        Villanova University is a nationally recognized Catholic research university located in Villanova, Pennsylvania. 
+        Villanova University is a prestigious, rapidly growing national research university founded in 1842—making it the oldest Catholic university in Pennsylvania. Since 2016, it has been classified as a <strong>“High Research Activity”</strong> institution, joining the ranks of America’s national universities.  
+        In FY 2023, Villanova’s total research and development expenditures reached <strong>$31.5 million</strong>, up from approximately <strong>$26.0 million</strong> in FY 2022—an impressive <strong>21% year-over-year growth</strong>, highlighting our accelerating momentum in innovation and scholarship.
+        The College of Engineering supports cutting-edge discovery across multiple centers, with sustained funding from agencies such as NSF, NIH, DoD, ONR, and DARPA.  
+        The ECE department, with its deep heritage, excels in areas such as advanced communications, embedded systems, robotics, signal processing, biomedical engineering, and machine learning. Notably, the Center for Advanced Communications has garnered multi-million dollar grants from federal agencies.  
+        At Villanova, academic rigor harmonizes with scenic campuses and collaborative spirit—offering an environment where groundbreaking ideas and student growth thrive.
         Here are some glimpses of our beautiful campus:
       </p>
 
