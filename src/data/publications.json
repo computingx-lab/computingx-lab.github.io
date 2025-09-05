@@ -34,7 +34,7 @@
             "year": 2025
         },
         {
-            "authors": "Chenhui Xu, Dancheng Liu, Yuting Hu, Jiajie Li, Ruiyang Qin, Qingxiao Zheng, Jinjun Xiong",
+            "authors": "Ruiyang Qin, Pengyu Ren, Zheyu Yan, Liu Liu, Dancheng Liu, Amir Nassereldine, Jinjun Xiong, Kai Ni, Sharon Hu, Yiyu Shi",
             "title": "NVCiM-PT: An NVCiM-assisted Prompt Tuning Framework for Edge LLMs",
             "venue": "Design, Automation and Test in Europe Conference (DATE)",
             "year": 2025,
@@ -49,7 +49,7 @@
             "highlight": "Spotlight. 5.1% out of all Submissions"
         },
         {
-            "authors": "Ruiyang Qin, Pengyu Ren, Zheyu Yan, Liu Liu, Dancheng Liu, Amir Nassereldine, Jinjun Xiong, Kai Ni, Sharon Hu, Yiyu Shi",
+            "authors": "Chenhui Xu, Dancheng Liu, Yuting Hu, Jiajie Li, Ruiyang Qin, Qingxiao Zheng, Jinjun Xiong",
             "title": "Sub-Sequential Physics-Informed Learning with State Space Model",
             "venue": "International Conference on Machine Learning (ICML)",
             "year": 2025,
