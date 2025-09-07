@@ -27,7 +27,15 @@ const DirectorSection: React.FC = () => (
             <div>
                 <h3 className="text-xl font-semibold text-stone-500 mb-2">Director</h3>
                 <p className="text-gray-700 mb-2 text-sm">
-                    Dr. Ruiyang Qin is currently an assistant professor in the Department of Electrical and Computer Engineering at Villanova University. He is the director of the ComputingX Lab. He received his B.S./M.S. in Computer Science from Georgia Institute of Technology (2017 - 2021) and Ph.D. in Computer Science and Engineering from the University of Notre Dame (2022 - 2025).
+                    Dr. Ruiyang Qin is currently an assistant professor in the Department of Electrical and Computer Engineering at <a 
+                        href="https://www1.villanova.edu/university/engineering/academic-programs/electrical-computer/directory/biodetail.html?mail=ruiyang.qin@villanova.edu&xsl=bio_long" 
+                        className="text-blue-600 hover:underline"
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
+                        Villanova University
+                      </a>. 
+                    He is the director of the ComputingX Lab. He received his B.S./M.S. in Computer Science from Georgia Institute of Technology (2017 - 2021) and Ph.D. in Computer Science and Engineering from the University of Notre Dame (2022 - 2025).
                 </p>
                 <p className="text-gray-700 mb-2 text-sm">
                     In recognition of his research, more than a dozen of his papers have been published in top journals and conferences, including ACM Transactions on Design Automation of Electronic Systems, ACM/IEEE Design Automation Conference, IEEE/ACM International Conference on Computer-Aided Design, Design, Automation & Test in Europe Conference & Exhibition, Asia and South Pacific Design Automation Conference, International Conference on Machine Learning, International Conference on Learning Representations, the Association for Computational Linguistics. In the very early stages of his career, his work has been nominated William J. McCalla Best Paper in ICCAD 2024 and Spotlight Paper in ICLR 2025. 
