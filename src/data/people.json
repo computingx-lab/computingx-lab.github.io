@@ -6,8 +6,15 @@
                 "name": "Ningxin Kong",
                 "image": "images/ningxin.jpg",
                 "homepage": "https://www.linkedin.com/in/stacy-kong-625a421a2/",
-                "admission_year": "PhD: 2025",
+                "admission_year": "PhD: Fall 25",
                 "research_interest": "Univ of Toronto (BS)\nUniv of Chicago (MS)"
+            },
+            {
+                "name": "Xinzhao Li",
+                "image": "images/Xinzhao.jpg",
+                "homepage": "https://www.linkedin.com/in/xinzhao-li-79a190265/",
+                "admission_year": "PhD: Spring 26",
+                "research_interest": "PolyU HK (BS)\George Wash Univ (MS)"
             }
         ]
     }
