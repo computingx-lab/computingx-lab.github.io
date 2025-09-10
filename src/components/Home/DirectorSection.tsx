@@ -23,11 +23,10 @@ const DirectorSection: React.FC = () => (
                         Curriculum Vitae
                     </a>
                 </div>
-                <div className="flex justify-center">
-                    <p className="mt-2 text-sm text-blue-600">
-                     <span className="font-mono">rqin@villanova.edu</span>
-                    </p>
-                </div>
+                <p className="mt-2 text-sm text-[#4B3621]" style={{ fontFamily: "'Arial Narrow', sans-serif" }}>
+                  rqin@villanova.edu
+                </p>
+
             </div>
             <div>
                 <h3 className="text-xl font-semibold text-stone-500 mb-2">Director</h3>
@@ -76,7 +75,7 @@ const DirectorSection: React.FC = () => (
                     Twitter
                   </a>
                 
-//                <span className="ml-1">📧 <span className="font-mono">rqin@villanova.edu</span></span>
+                 {/* <span className="ml-1">📧 <span className="font-mono">rqin@villanova.edu</span></span> */}
             
                 </p>
             </div>
