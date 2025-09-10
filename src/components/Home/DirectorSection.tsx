@@ -61,7 +61,17 @@ const DirectorSection: React.FC = () => (
                 >
                   LinkedIn
                 </a>
-                  <span className="ml-1">📧 <span className="font-mono">rqin@villanova.edu</span></span>
+
+                 <a 
+                    href="https://twitter.com/ruiyang_qin" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:underline mr-4"
+                  >
+                    Twitter
+                  </a>
+                
+                <span className="ml-1">📧 <span className="font-mono">rqin@villanova.edu</span></span>
             
                 </p>
             </div>
