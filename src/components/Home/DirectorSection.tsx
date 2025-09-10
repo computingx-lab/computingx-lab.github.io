@@ -61,6 +61,8 @@ const DirectorSection: React.FC = () => (
                 >
                   LinkedIn
                 </a>
+                  <span className="ml-1">📧 <span className="font-mono">rqin AT villanova DOT edu</span></span>
+            
                 </p>
             </div>
         </div>
