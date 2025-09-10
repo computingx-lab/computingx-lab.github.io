@@ -26,10 +26,6 @@ const AnnouncementSection: React.FC = () => (
                 If you are curious about our work or want to discuss potential collaborations, please don’t hesitate to reach out. 
             </p>
 
-            {/* Email */}
-            <p className="text-center text-sm text-gray-600 mt-4">
-                📧 <span className="font-mono">rqin AT villanova DOT edu</span>
-            </p>
         </div>
     </section>
 );
