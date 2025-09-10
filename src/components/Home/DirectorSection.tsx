@@ -76,7 +76,7 @@ const DirectorSection: React.FC = () => (
                     Twitter
                   </a>
                 
-                <span className="ml-1">📧 <span className="font-mono">rqin@villanova.edu</span></span>
+//                <span className="ml-1">📧 <span className="font-mono">rqin@villanova.edu</span></span>
             
                 </p>
             </div>
