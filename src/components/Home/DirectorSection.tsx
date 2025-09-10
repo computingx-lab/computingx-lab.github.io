@@ -41,7 +41,7 @@ const DirectorSection: React.FC = () => (
                         rel="noopener noreferrer"
                       >
                        Ruiyang Qin 
-                      </a>is currently an assistant professor in the Department of Electrical and Computer Engineering at Villanova University. 
+                      </a> is currently an assistant professor in the Department of Electrical and Computer Engineering at Villanova University. 
                     He is the director of the ComputingX Lab. He received his B.S./M.S. in Computer Science from Georgia Institute of Technology (2017 - 2021) and Ph.D. in Computer Science and Engineering from the University of Notre Dame (2022 - 2025) advised by Professor Yiyu Shi.
                 </p>
                 <p className="text-gray-700 mb-2 text-sm">
