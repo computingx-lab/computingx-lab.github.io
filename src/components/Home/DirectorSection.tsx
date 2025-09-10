@@ -42,7 +42,7 @@ const DirectorSection: React.FC = () => (
                       >
                         Villanova University
                       </a>. 
-                    He is the director of the ComputingX Lab. He received his B.S./M.S. in Computer Science from Georgia Institute of Technology (2017 - 2021) and Ph.D. in Computer Science and Engineering from the University of Notre Dame (2022 - 2025).
+                    He is the director of the ComputingX Lab. He received his B.S./M.S. in Computer Science from Georgia Institute of Technology (2017 - 2021) and Ph.D. in Computer Science and Engineering from the University of Notre Dame (2022 - 2025) advised by Professor Yiyu Shi.
                 </p>
                 <p className="text-gray-700 mb-2 text-sm">
                     In recognition of his research, more than a dozen of his papers have been published in top journals and conferences, including ACM Transactions on Design Automation of Electronic Systems, ACM/IEEE Design Automation Conference, IEEE/ACM International Conference on Computer-Aided Design, Design, Automation & Test in Europe Conference & Exhibition, Asia and South Pacific Design Automation Conference, International Conference on Machine Learning, International Conference on Learning Representations, the Association for Computational Linguistics. In the very early stages of his career, his work has been nominated William J. McCalla Best Paper in ICCAD 2024 and Spotlight Paper in ICLR 2025. 
