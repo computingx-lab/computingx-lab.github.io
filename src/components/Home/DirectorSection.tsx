@@ -25,7 +25,7 @@ const DirectorSection: React.FC = () => (
                 </div>
                 <div className="flex justify-center">
                   <p className="mt-3 text-sm text-[#5C4033]">
-                    📧 <span className="font-mono tracking-tight">rqin@villanova.edu</span>
+                    <span className="font-mono tracking-tight">rqin@villanova.edu</span>
                   </p>
                 </div>
 
