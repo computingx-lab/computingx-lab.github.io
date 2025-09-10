@@ -23,9 +23,12 @@ const DirectorSection: React.FC = () => (
                         Curriculum Vitae
                     </a>
                 </div>
-                <p className="mt-2 text-sm text-[#4B3621]" style={{ fontFamily: "'Arial Narrow', sans-serif" }}>
-                  rqin@villanova.edu
-                </p>
+                <div className="flex justify-center">
+                  <p className="mt-3 text-sm text-[#5C4033]">
+                    📧 <span className="font-mono tracking-tight">rqin@villanova.edu</span>
+                  </p>
+                </div>
+
 
             </div>
             <div>
