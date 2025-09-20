@@ -32,7 +32,7 @@ const AboutVillanovaSection: React.FC = () => (
           className="w-full aspect-square object-cover rounded-lg shadow-sm"
         />
         <img
-          src="images/nova_pope.jpg"
+          src="images/nova_campus.jpeg"
           alt="Villanova Campus 4"
           className="w-full aspect-square object-cover rounded-lg shadow-sm"
         />
