@@ -9,10 +9,10 @@ import AboutVillanovaSection from "./AboutVillanovaSection";
 const HomePage: React.FC = () => (
     <div>
         <div className="flex flex-col md:flex-row md:space-x-8">
-            <div className="w-full md:w-16/30">
+            <div className="w-full md:w-15/30">
                 <IntroSection />
             </div>
-            <div className="w-full md:w-14/30">
+            <div className="w-full md:w-15/30">
                 <NewsSection />
             </div>
         </div>
