@@ -22,6 +22,18 @@
     ],
     "conference": [
         {
+            "authors": "Xinzhao Li, Alptekin Vardar, Franz Muller, Navya Goli, Umamaheswara Tida, Kai Ni, X. Sharon Hu, Thomas Kampfe, Ruiyang Qin",
+            "title": "CQ-CiM: Hardware-Aware Embedding Shaping for Robust CiM-Based Retrieval",
+            "venue": "IEEE/ACM Design Automation Conference (DAC)",
+            "year": 2026
+        },
+        {
+            "authors": "Likai Pei, Jiahao Zheng, Xueji Zhao, Emilie Ye, Jianbo Liu, Hanqing Tao, Ming-Yen Lee, Ruiyang Qin, Yiyu Shi, Shimeng Yu, X. Sharon Hu, Ningyuan Cao",
+            "title": "Probabilistic Memory Design for Efficient Trustworthy Edge Intelligence",
+            "venue": "IEEE/ACM Design Automation Conference (DAC)",
+            "year": 2026
+        },
+        {
             "authors": "Ruiyang Qin, Dancheng Liu, Gelei Xu, Zheyu Yan, Chenhui Xu, Yuting Hu, X Sharon Hu, Jinjun Xiong, Yiyu Shi",
             "title": "Tiny-Align: Bridging Automatic Speech Recognition and Large Language Model on the Edge",
             "venue": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
