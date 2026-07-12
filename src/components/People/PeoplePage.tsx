@@ -55,7 +55,7 @@ const PeoplePage: React.FC = () => (
                                     <PersonCard
                                         key={person.name + i}
                                         person={person}
-                                        isPostdocOrGrad={group.group === "Postdoc Scholars" || group.group === "Graduate Students"}
+                                        isPostdocOrGrad={group.group === "Postdoc Scholars" || group.group === "Graduate Students" || group.group === "Undergrad Students"}
                                     />
                                 ))}
                             </div>
