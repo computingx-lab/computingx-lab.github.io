@@ -23,15 +23,17 @@
         "people": [
             {
                 "name": "Charles Power",
-                "image": "images/Charles.jpg",
+                "image": "images/Charlie.jpg",
                 "homepage": "https://www.linkedin.com/in/charles-power-3879152b6/",
-                "admission_year": "Intern: Jan 26"
+                "admission_year": "Intern: Jan 26",
+                "research_interest": "Villanova ECE BS"
             },
             {
                 "name": "Joshua DeStefano",
                 "image": "images/joshua.png",
                 "homepage": "https://www.linkedin.com/in/josh-destefano20/",
-                "admission_year": "Intern: Jan 26"
+                "admission_year": "Intern: Jan 26",
+                "research_interest": "Villanova ECE BS"
             }
         ]
     }
