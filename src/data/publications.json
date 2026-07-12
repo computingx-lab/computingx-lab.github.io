@@ -22,6 +22,13 @@
     ],
     "conference": [
         {
+            "authors": "Xinzhao Li, Charles Power, Pengyu Ren, Jongun Won, Likai Pei, Yuting Hu, Jinjun Xiong, Alptekin Vardar, Ningyuan Cao, X. Sharon Hu, Thomas Kämpfe, Kai Ni, Ruiyang Qin",
+            "title": "PolySim: Deterministic Polynomial Surrogates for Cross-Modal Retrieval on CiM",
+            "venue": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+            "year": 2026,
+            "notes": ""
+        },
+        {
             "authors": "Xinzhao Li, Alptekin Vardar, Franz Muller, Navya Goli, Umamaheswara Tida, Kai Ni, X. Sharon Hu, Thomas Kampfe, Ruiyang Qin",
             "title": "CQ-CiM: Hardware-Aware Embedding Shaping for Robust CiM-Based Retrieval",
             "venue": "IEEE/ACM Design Automation Conference (DAC)",
