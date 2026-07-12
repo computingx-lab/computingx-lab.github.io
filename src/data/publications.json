@@ -22,6 +22,13 @@
     ],
     "conference": [
         {
+            "authors": "Navya Goli, Xinzhao Li, Yuting Hu, Dancheng Liu, Umamaheswara Rao Tida, Jinjun Xiong, Ruiyang Qin",
+            "title": "MAI-EDA: Multi-Agent AI Co-Pilot for RTL-to-GDSII EDA Education at Scale",
+            "venue": "IEEE International Midwest Symposium on Circuits and Systems (MWSCAS)",
+            "year": 2026,
+            "notes": "Invited paper"
+        },
+        {
             "authors": "Xinzhao Li, Charles Power, Pengyu Ren, Jongun Won, Likai Pei, Yuting Hu, Jinjun Xiong, Alptekin Vardar, Ningyuan Cao, X. Sharon Hu, Thomas Kämpfe, Kai Ni, Ruiyang Qin",
             "title": "PolySim: Deterministic Polynomial Surrogates for Cross-Modal Retrieval on CiM",
             "venue": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
